@@ -1,0 +1,21 @@
+.form{
+    position: absolute;
+    width: 95%;
+    left: 12.5%;
+    top: 25vh;
+    text-align: center;
+    border: solid 2px gray;
+    padding: 5%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+@media (min-width:780px){
+    .form{
+        top: 15vh;
+        width: 50%;
+        left: 25%;
+        
+    }
+}
